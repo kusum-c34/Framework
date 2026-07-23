@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // Checkout the source code from your Git repository
-               // git url: 'https://github.com/Saiferkhan/Ducat-Training-Project',
+                    git url:'https://github.com/kusum-c34/Framework.git',
                     branch: 'main' // Specify your branch name
             }
         }
